@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['airbnb-base',"some-other-config-you-use",
+  extends: ["airbnb-base",
   "prettier"],
   overrides: [
     {
@@ -11,19 +11,19 @@ module.exports = {
         node: true,
       },
       files: [
-        '.eslintrc.{js,cjs}',
+        ".eslintrc.{js,cjs}",
       ],
       parserOptions: {
-        sourceType: 'script',
+        sourceType: "script",
       },
     },
   ],
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
+    ecmaVersion: "latest",
+    sourceType: "module",
   },
   rules: {
-    'no-console': 'off',
+    "no-console": "off",
     "quotes": [
       "error",
       "double"
