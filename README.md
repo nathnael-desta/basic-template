@@ -19,4 +19,5 @@ https://prettier.io/
 https://github.com/prettier/eslint-config-prettier#installation
 
 *****
-eslint isn't working find a fix for it (next project maybe start from scratch using the above links as instructions instead of using this as a template)
+bugs
+* wrong inputs for eslint in settings.json, reset them
