@@ -28,6 +28,7 @@ bugs
     - install babel with
           npm install @babel/preset-env --save-dev
     - create a .babelrc file and add this to it
+      
           {
               "presets": ["@babel/preset-env"]
           }
