@@ -23,6 +23,15 @@ https://jestjs.io/docs/getting-started
 
 *****
 bugs
+*  Jest encountered an unexpected token. Jest failed to parse a file. :-
+    - follow along this video, https://youtu.be/ZnIv8u2-XrA, and this link https://babeljs.io/setup#installation
+    - install babel with
+          npm install @babel/preset-env --save-dev
+    - create a .babelrc file and add this to it
+          {
+              "presets": ["@babel/preset-env"]
+          }
+
 * wrong inputs for eslint in settings.json, reset them
   
 * ReferenceError: TextEncoder is not defined:-
@@ -57,7 +66,7 @@ bugs
           const document = dom.window.document;
 
 * Jest failed to parse a file:-
-    - delete all the bable config files or any thing connected to it (becasue i don't know how to integrate bable and jest correctly yet)
+    - delete all the bable config files or any thing connected to it (if you don't want to use babel)
     - use commonJS import and export instead of ecmaJS, do it like this:-
           exports.insertAt = insertAt;
           exports.getTile = getTile;
