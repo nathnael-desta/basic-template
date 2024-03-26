@@ -46,7 +46,10 @@ bugs
     - from the beginning just install jest don't install with bable and use the basic examples
     
 * document or any html file is null:-
+
   ******** If you are testing anything that is dependent on the DOM structure, then you are doing it wrong. In summary:Try to test data manipulations and logical operations only.********
+
+  
   if you are aware of this warning here are ways to mock document elements onto the test files and my unfinished attempts to test every dom element
     - you have to use jsdom to do that write these
  
